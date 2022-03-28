@@ -1,4 +1,4 @@
-public class Addition {
+class varunjenkins1 {
    public static void main(String[] args) {
 
       // declare variables
