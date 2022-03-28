@@ -1,17 +1,11 @@
 class varunjenkins1 {
-   public static void main(String[] args) {
 
-      // declare variables
-      int num1, num2, sum;
+    public static void main(String[] args) {
 
-      // take two numbers
-      num1 = 10;
-      num2 = 20;
-
-      // calculate sum value
-      sum = num1 + num2;
-
-      // display the sum value
-      System.out.println("Sum = " + sum);
-   }
+        int num = 5;
+        for(int i = 1; i <= 10; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+    }
 }
